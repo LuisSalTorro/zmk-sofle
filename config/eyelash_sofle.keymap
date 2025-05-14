@@ -56,11 +56,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE     &kp F1            &kp F2            &kp F3            &kp F4            &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F12
-&kp CAPSLOCK  &kp GRAVE         &mkp LCLK         &mkp MCLK         &mkp RCLK         &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EQUAL
-&trans        &kp TILDE         &kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_COMMAND  &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT         &kp LEFT_BRACKET   &kp RIGHT_BRACKET
-&trans        &rgb_ug RGB_OFF   &rgb_ug RGB_ON    &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11           &kp F12            &trans
-&kp C_MUTE    &kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_COMMAND  &trans            &trans             &mkp LCLK        &trans           &trans           &kp GRAVE   &trans            &trans
+&kp GRAVE     &kp F1            &kp F2         &kp F3            &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F12
+&kp CAPSLOCK  &kp GRAVE         &mkp LCLK      &mkp MCLK         &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp K_UNDO       &kp END          &kp UP      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EQUAL
+&trans        &kp TILDE         &kp C_AC_SAVE  &kp LEFT_ALT      &kp K_FIND       &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT         &kp LEFT_BRACKET   &kp RIGHT_BRACKET
+&trans        &kp K_UNDO        &kp K_CUT      &kp K_COPY        &kp K_PASTE      &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11           &kp F12            &trans
+&kp C_MUTE    &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LEFT_COMMAND  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &mkp LCLK        &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &kp GRAVE   &trans            &trans
             >;
 
             display-name = "layer1";
