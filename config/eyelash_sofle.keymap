@@ -96,11 +96,11 @@
 
         Arrows {
             bindings = <
-&none           &none             &none         &none             &none  &none    &none  &none               &none               &none           &none                &none                &none
-&none           &none             &none         &none             &none  &none    &none  &kp LG(LEFT_ARROW)  &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)  &none
-&none           &none             &none         &none             &none  &none    &none  &none               &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &none                &none
-&kp LEFT_SHIFT  &none             &none         &none             &none  &none    &none  &none               &none               &none           &none                &none                &none
-&none           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &none  &none    &none  &kp ENTER           &kp SPACE           &none           &none                &none
+&none           &none             &none         &none             &none  &none    &none  &none               &none               &none            &none                &none                &none
+&none           &none             &none         &none             &none  &none    &none  &kp LG(LEFT_ARROW)  &kp LA(LEFT_ARROW)  &kp UP_ARROW     &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)  &none
+&none           &none             &none         &none             &none  &none    &none  &none               &kp LEFT_ARROW      &kp DOWN_ARROW   &kp RIGHT_ARROW      &none                &none
+&kp LEFT_SHIFT  &none             &none         &none             &none  &none    &none  &kp LG(LS(TAB))     &kp LS(LG(TAB))     &kp LC(LS(TAB))  &kp LC(TAB)          &none                &none
+&none           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &none  &none    &none  &kp ENTER           &kp SPACE           &none            &none                &none
             >;
         };
 
